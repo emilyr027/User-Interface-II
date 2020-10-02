@@ -1,1 +1,141 @@
 /* Add CSS styling here */
+*{
+    /* border:1px solid black; */
+    background-color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:3px;
+    width:250px;
+    font-size:50px;
+    text-align:center;
+    color:white;
+    text-shadow:1px 1px black;
+    background:transparent;
+
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:3px;
+    font-size:30px;
+    border:none;
+    
+
+}
+nav{
+    width:37%;
+    justify-content:space-evenly;
+    display:flex;
+    border:1px solid black;
+    
+}
+.heading{
+    width:100%;
+    height:50px;
+    display:flex;
+    border:none;
+    flex-flow:row wrap;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:5%;
+    margin-bottom:35px;
+}
+
+button{
+    background-color:transparent;
+    border:none;
+    padding:5px;
+    margin-right:5%;
+    font-size:16px;
+}
+
+button:hover{
+    background-color:lightcoral;
+    color:black;
+    cursor:pointer;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    background:url('https://www.maketecheasier.com/assets/uploads/2018/06/code-editors-mac-featured.jpg');
+    flex-direction:column;
+    width:80%;
+    align-items:center;
+    margin:0 auto;
+    background-position:center;
+    /* background-size:130% 100%; */
+    height:200px;
+    
+}
+
+.projectsButton{
+    border:1px solid white;
+    color:white;
+    padding:2px 20px;
+}
+
+
+.container1 .item{
+    height:250px;
+    width:250px;
+    margin:20px;
+    border:1px solid black;
+    background:url(https://ur-word.com/wp-content/uploads/2016/07/computer-coding-square.jpg);
+    /* display:flex;
+    flex-flow:row wrap;
+    width:200px; */
+}
+
+.container1,.container2{
+    display:flex;
+    flex-wrap:wrap;
+}
+.container2 .item{
+    height:250px;
+    width:250px;
+    margin:20px;
+    border:1px solid black;
+    background:url(https://ur-word.com/wp-content/uploads/2016/07/computer-coding-square.jpg);
+}
+
+/* .container3 .item{
+    width:250px;
+    height:20px;
+    margin:20px;
+    justify-content:space-evenly;
+    
+} */
+
+.container3,.container4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    width:750px;
+    padding-left:60px;
+    padding-right:150px;
+}
+
+footer{
+    background-color:lightcoral;
+    height:100px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    border:1px white;
+}
+
+.foot .button{
+    border:1px white;
+}
+
+.contactMe{
+    border:1px white;
+}
+/* .footer .button{
+    align:center;
+    border:1px white;
+} */
